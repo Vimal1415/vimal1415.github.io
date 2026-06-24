@@ -395,6 +395,25 @@
     margin-bottom: 1.5rem;
   }
 
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.7rem;
+    background: var(--accent-light);
+    border: 1px solid rgba(26,86,160,0.15);
+    transition: all 0.2s;
+    align-self: flex-start;
+    border-radius: 2px;
+  }
+
+  .project-link:hover { background: var(--accent); color: #fff; }
+
   .project-stack { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: auto; }
 
   .stack-chip {
@@ -880,7 +899,7 @@
 
     <div class="project-card fade-in">
       <div class="project-num">Project 01</div>
-      <div class="project-title">AI-Driven Quiz Generation &amp; Weakness Detection</div>
+      <div class="project-title">AI-Driven Quiz Generation & Weakness Detection</div>
       <p class="project-desc">Production-grade async RAG backend using FastAPI + PostgreSQL on Supabase, capable of processing 200+ page PDFs with FAISS vector retrieval. LLM pipeline via Groq AI and LangChain auto-generates contextually grounded quizzes with per-topic weak-area identification.</p>
       <div class="project-stack">
         <span class="stack-chip">FastAPI</span>
@@ -890,6 +909,7 @@
         <span class="stack-chip">PostgreSQL</span>
         <span class="stack-chip">SQLAlchemy</span>
       </div>
+      <a href="https://github.com/Vimal1415/AI_learning_companion_DB" target="_blank" class="project-link">↗ View on GitHub</a>
     </div>
 
     <div class="project-card fade-in">
@@ -904,6 +924,7 @@
         <span class="stack-chip">Docker</span>
         <span class="stack-chip">GitHub Actions</span>
       </div>
+      <a href="https://github.com/Vimal1415/phi2-json-extractor" target="_blank" class="project-link">↗ View on GitHub</a>
     </div>
 
     <div class="project-card fade-in">
@@ -917,6 +938,7 @@
         <span class="stack-chip">DistilBERT</span>
         <span class="stack-chip">scikit-learn</span>
       </div>
+      <a href="https://github.com/Vimal1415/Aspect-Based-Sentiment-Analysis-of-Movie-Reviews" target="_blank" class="project-link">↗ View on GitHub</a>
     </div>
 
     <div class="project-card fade-in">
@@ -930,6 +952,7 @@
         <span class="stack-chip">Boto3</span>
         <span class="stack-chip">NLP</span>
       </div>
+      <a href="https://github.com/Vimal1415/ResumeJobRecommender" target="_blank" class="project-link">↗ View on GitHub</a>
     </div>
 
   </div>
@@ -971,27 +994,27 @@
   <div class="section-tag">Credentials</div>
   <h2 class="section-title">Certifications</h2>
   <div class="cert-grid fade-in">
-    <div class="cert-card">
+    <a href="https://drive.google.com/file/d/1B2aaWxZJtoaSokHPSA6rmO83oww6R41h/view" target="_blank" class="cert-card" style="text-decoration: none;">
       <div class="cert-icon">🏅</div>
       <div>
         <div class="cert-name">Azure AI Fundamentals (AI-900)</div>
         <div class="cert-issuer">Microsoft</div>
       </div>
-    </div>
-    <div class="cert-card">
+    </a>
+    <a href="https://www.udemy.com/certificate/UC-04b21ba3-e4be-49b8-86d8-9b4f5113e4a0/" target="_blank" class="cert-card" style="text-decoration: none;">
       <div class="cert-icon">🤖</div>
       <div>
         <div class="cert-name">Certified Master in Agentic AI</div>
         <div class="cert-issuer">Udemy · 2025</div>
       </div>
-    </div>
-    <div class="cert-card">
+    </a>
+    <a href="https://drive.google.com/file/d/1penwzc2WXt8Vd8SUdsYDdadY-rsOLeRc/view" target="_blank" class="cert-card" style="text-decoration: none;">
       <div class="cert-icon">📈</div>
       <div>
-        <div class="cert-name">Machine Learning A-Z with Python &amp; R</div>
+        <div class="cert-name">Machine Learning A-Z with Python & R</div>
         <div class="cert-issuer">Udemy · 2024</div>
       </div>
-    </div>
+    </a>
   </div>
 </section>
 
